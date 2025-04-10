@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gestion-des-profs/static/css/main.942fd889.css",
+    "main.js": "/gestion-des-profs/static/js/main.15c177b6.js",
+    "static/js/453.f1cdca04.chunk.js": "/gestion-des-profs/static/js/453.f1cdca04.chunk.js",
+    "index.html": "/gestion-des-profs/index.html",
+    "main.942fd889.css.map": "/gestion-des-profs/static/css/main.942fd889.css.map",
+    "main.15c177b6.js.map": "/gestion-des-profs/static/js/main.15c177b6.js.map",
+    "453.f1cdca04.chunk.js.map": "/gestion-des-profs/static/js/453.f1cdca04.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.942fd889.css",
+    "static/js/main.15c177b6.js"
+  ]
+}
