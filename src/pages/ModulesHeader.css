@@ -1,0 +1,180 @@
+.modules-page {
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+.modules-page {
+  padding-top: 100px; /* Ajustez en fonction de la hauteur de la barre de navigation */
+}
+
+/* Navigation */
+.nav-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 15px;
+  margin: 0 5px;
+}
+
+.main-nav a.active {
+  color: #3366cc;
+  border-bottom: 2px solid #3366cc;
+}
+
+/* Modules container */
+.modules-container {
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 15px;
+}
+
+/* Header with title and stats */
+.modules-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  border-bottom: 1px dotted #ddd;
+  padding-bottom: 15px;
+}
+
+.title-section h1 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.stats-section {
+  background-color: #f9f9f9;
+  border: 1px dashed #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  width: 300px;
+}
+
+.stats-title {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.stats-icon {
+  margin-right: 5px;
+}
+
+.stats-values {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat-item {
+  text-align: center;
+  flex: 1;
+}
+
+.stat-label {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.stat-value {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Tabs and add button */
+.modules-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.tabs {
+  border-bottom: 1px solid #ddd;
+}
+
+.tab {
+  background: none;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.tab.active {
+  color: #3366cc;
+  border-bottom: 2px solid #3366cc;
+}
+
+.add-module-btn {
+  background-color: #3366cc;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Filters */
+.filters-row {
+  display: flex;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #ddd;
+}
+
+.name-filter,
+.other-filters {
+  display: flex;
+  align-items: center;
+}
+
+.name-filter {
+  margin-right: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* Selection counter */
+.selection-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.selected-count {
+  margin-right: 10px;
+}
+
+.trash-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.trash-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
