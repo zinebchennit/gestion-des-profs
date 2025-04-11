@@ -1,0 +1,95 @@
+/* src/Login.css */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f7fe;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #f3f7fe;
+  padding: 40px;
+  width: 90%;
+  max-width: 650px;
+  text-align: center;
+}
+
+.logo-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 24px;
+}
+
+.logo-img {
+  width: 120px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 28px;
+  color: #0a0a0a;
+  margin: 0;
+  font-weight: medium;
+}
+
+.subheading {
+  font-size: 18px;
+  color: #3452b5;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  font-weight: medium;
+}
+
+.input-field {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 14px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.password-container {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-40%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #999;
+}
+
+.login-button {
+  background-color: #3452b5;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  width: 45%;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  background-color: #0c2887;
+}
