@@ -1,6 +1,9 @@
 {
   "name": "mon-projet-react",
+<<<<<<< HEAD
   "homepage": "https://zinebchennit.github.io/gestion-des-profs",
+=======
+>>>>>>> b0515621a883141412618d3435a7b128aed8c9bf
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,13 +13,19 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+<<<<<<< HEAD
     "react-router-dom": "^7.5.0",
+=======
+>>>>>>> b0515621a883141412618d3435a7b128aed8c9bf
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+=======
+>>>>>>> b0515621a883141412618d3435a7b128aed8c9bf
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,8 +48,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
+=======
+>>>>>>> b0515621a883141412618d3435a7b128aed8c9bf
   }
 }
